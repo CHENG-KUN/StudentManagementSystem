@@ -12,10 +12,10 @@ public class SqlHelper {
 	PreparedStatement ps = null;
 	Connection ct = null;
 	ResultSet rs = null;
-	String url = "jdbc:sqlserver://localhost;database=spdb1";
+	String url = "jdbc:mysql://localhost;database=spdb1";
 	String user = "//please input your user account id";
 	String passwd = "//input your db password";
-	String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+	String driver = "com.sqlserver.jdbc.Driver";
 	
 	public SqlHelper() {
 		try {
